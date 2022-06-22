@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hogwarts Institute Of Magic</title>
+
+
+    <link rel="stylesheet" href="./styles.css">
+
+    <link rel="icon" type="image/x-icon" href="/images/Hogwarts-Logo.png">
+
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+
+    <section class="header-gryffindor">
+        <nav>
+            <a href="index.html"><img src="images/college_logo.png" alt="Hogwarts Institute Of Magic's Logo"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="./index.html">home</a></li>
+                    <li><a href="./course.html">course</a></li>
+                    <li><a href="./campus.html">CAMPUS</a></li>
+                    <li><a href="./events.html">EVENTS</a></li>
+                    <li><a href="./about.html">about</a></li>
+                    <li><a href="./admission.html">ADMISSION</a></li>
+                    <li><a href="./contact.html">contact</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <div class="text-box">
+            <h2>Hufflepuff</h2>
+            <p>Hufflepuff values <b>hard work, patience, justice, and loyalty</b>. The house mascot is the badger.
+                        Hufflepuff's calours are <span style="color: yellow;">yellow</span> and <b><span style="color: black;">black</span></b>. The Head
+                        of this house is the Herbology teacher Pomona
+                        Sprout. The house ghost is The Fat Friar.</p>
+            <p >The entrance to the Hufflepuff dormitories and common room entrance is
+                concealed in a pile of large barrels in an alcove in the corridor that holds the kitchen. To enter, one
+                must tap the barrel two from the bottom in the middle of the second row in the rhythm of "Helga
+                Hufflepuff". Unlike any other house, the Hufflepuff common room has a repelling device that douses the
+                illegal entrant in vinegar if the wrong lid is tapped or the rhythm is wrong. The Hufflepuff common room
+                is filled with yellow hangings and fat armchairs and it has little underground tunnels leading to the
+                dormitories, all of which have perfectly round doors, like barrel tops.</p>
+            <p>The founder of this house is <b>Helga Hufflepuff</b>. She was born in the 10th
+                Century and came from the broad valleys of Wales. She was very tolerant. While the other founders chose
+                to have special students, Hufflepuff accepted them all. Helga Hufflepuff had a gift for Food-related
+                charms, and her recipes are still used as the basis for many Hogwarts feasts. Helga Hufflepuff also
+                arranged for the house-elf contingent to work in the kitchens, giving them somewhere safe to work, where
+                they would not be mistreated or abused.</p>
+
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row-footer">
+                <div class="footer-col">
+                    <h4>College</h4>
+                    <ul>
+                        <li><a href="./admission.html">admission</a></li>
+                        <li><a href="./contact.html">contact</a></li>
+                        <li><a href="#">privacy policy</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>get help</h4>
+                    <ul>
+                        <li><a href="./index.html">home</a></li>
+                        <li><a href="./course.html">course</a></li>
+                        <li><a href="./campus.html">campus</a></li>
+                        <li><a href="./events.html">events</a></li>
+                        <li><a href="./about.html">about</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Team Members</h4>
+                    <ul>
+                        <li><a href="https://ketone.netlify.app/" target="_blank">Ketone</a></li>
+                        <li><a href="https://prashanth-chandra.netlify.app/" target="_blank">Prashanth Chandra Reddy</a></li>
+                        <li><a href="https://mtp17.netlify.app/" target="_blank">Maanav T</a></li>
+                        <li><a href="https://killerkidd.netlify.app/" target="_blank">Kisor</a></li>
+                        
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>follow us</h4>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/scavenverbeast"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://twitter.com/elonmusk"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/prashanth_9/"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/prashanth-chandra-reddy-26914920b/"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <p class="footer-final">Made With Love By Group 5</p>
+    </footer>
+
+
+    <!-- JavaScript for Toggle Menu -->
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+
+</html>

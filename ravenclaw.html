@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hogwarts Institute Of Magic</title>
+
+    <link rel="icon" type="image/x-icon" href="/images/Hogwarts-Logo.png">
+
+    <link rel="stylesheet" href="./styles.css">
+
+
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+
+    <section class="header-gryffindor">
+        <nav>
+            <a href="index.html"><img src="images/college_logo.png" alt="Hogwarts Institute Of Magic's Logo"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="./index.html">home</a></li>
+                    <li><a href="./course.html">course</a></li>
+                    <li><a href="./campus.html">CAMPUS</a></li>
+                    <li><a href="./events.html">EVENTS</a></li>
+                    <li><a href="./about.html">about</a></li>
+                    <li><a href="./admission.html">ADMISSION</a></li>
+                    <li><a href="./contact.html">contact</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <div class="text-box">
+            <h2>Ravenclaw</h2>
+            <p>Ravenclaw values <b>intelligence, creativity, learning, and wit</b>. The house mascot is an eagle. The house colours are <span style="color: blue;">blue</span> and <span style="color: #CD7F32;">bronze</span>. The Head of this house is the Charms professor, Filius Flitwick. The house ghost is The Grey Lady.</p>
+            <p >The dormitories are in Ravenclaw Tower, on the west side of Hogwarts. The common room, which went undescribed in the series until the climax of Deathly Hallows, is round and filled with blue hangings and armchairs, has a domed ceiling painted with stars and features a replica statue of Rowena wearing her diadem. Harry also notes that Ravenclaws "have a spectacular view of the surrounding mountains". A logical riddle must be solved to gain entry, whereas the Gryffindor and Slytherin common rooms only require a password (Hufflepuffs need to tap a barrel in the rhythm of "Helga Hufflepuff"), indicating that it may be easier for those students from other houses who possess a high degree of intelligence to enter this common room than others. Professor McGonagall, the head of the Gryffindor House, solves the riddle accurately.</p>
+            <p>The founder of this house is <b>Rowena Ravenclaw</b>. Noted for her intelligence and creativity and regarded as one of the greatest witches of the age. It is a popular historical theory that the location and name of Hogwarts were both chosen by Ravenclaw, who dreamt that a warty hog was leading her to a cliff by the lake. Ravenclaw came up with the ever-changing floor plan. Ravenclaw died sometime in the eleventh century, after she fell fatally ill. Legend had it that a broken heart is the cause — because her daughter Helena ran away with her diadem.</p>
+          
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row-footer">
+                <div class="footer-col">
+                    <h4>College</h4>
+                    <ul>
+                        <li><a href="./admission.html">admission</a></li>
+                        <li><a href="./contact.html">contact</a></li>
+                        <li><a href="#">privacy policy</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>get help</h4>
+                    <ul>
+                        <li><a href="./index.html">home</a></li>
+                        <li><a href="./course.html">course</a></li>
+                        <li><a href="./campus.html">campus</a></li>
+                        <li><a href="./events.html">events</a></li>
+                        <li><a href="./about.html">about</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Team Members</h4>
+                    <ul>
+                        <li><a href="https://ketone.netlify.app/" target="_blank">Ketone</a></li>
+                        <li><a href="https://prashanth-chandra.netlify.app/" target="_blank">Prashanth Chandra Reddy</a></li>
+                        <li><a href="https://mtp17.netlify.app/" target="_blank">Maanav T</a></li>
+                        <li><a href="https://killerkidd.netlify.app/" target="_blank">Kisor</a></li>
+                        
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>follow us</h4>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/scavenverbeast"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://twitter.com/elonmusk"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/prashanth_9/"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/prashanth-chandra-reddy-26914920b/"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <p class="footer-final">Made With Love By Group 5</p>
+    </footer>
+
+
+    <!-- JavaScript for Toggle Menu -->
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+
+</html>

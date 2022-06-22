@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hogwarts Institute Of Magic</title>
+
+    <link rel="icon" type="image/x-icon" href="/images/Hogwarts-Logo.png">
+
+    <link rel="stylesheet" href="./styles.css">
+
+<body>
+    <form class="reg-form">
+        <p class="helper-text">* denotes a required field</p>
+        <div class="field-row">
+            <label class="form-label" for="firstName">First name</label>
+            <input type="text" id="firstName" class="field text-field first-name-field" required>
+            <span class="message"></span>
+        </div>
+        <div class="field-row">
+            <label class="form-label cf" for="lastName">Last name</label>
+            <input type="text" id="lastName" class="field text-field last-name-field" required>
+            <span class="message"></span>
+        </div>
+        <div class="field-row">
+            <label class="form-label" for="initials">Father Name</label>
+            <input type="text" id="initials" class="field text-field initials-field">
+        </div>
+        <div class="field-row">
+            <label class="form-label" for="email">Email</label>
+            <input type="email" id="email" class="field text-field email-field" required>
+            <span class="message"></span>
+        </div>
+        <div class="field-row">
+            <label class="form-label" for="dateOfBirth">Date of birth</label>
+            <input type="date" id="dateOfBirth" class="field date-field dob-field" min="1900-03-08" max="2100-04-21"
+                required>
+            <span class="message"></span>
+        </div>
+        <div class="field-row">
+            <label class="form-label" for="tel">Mobile Number</label>
+            <input type="tel" id="tel" class="field text-field tel-field" required>
+            <span class="message"></span>
+        </div>
+        <div class="field-row">
+            <label class="form-label" for="hs">High School Name</label>
+            <input type="text" id="hs" class="field text-field hs-field" required>
+            <span class="message"></span>
+        </div>
+        <div class="field-row">
+            <label class="form-label" for="tel">Permanent Address</label>
+            <input type="tel" id="tel" class="field text-field address-field" required>
+            <span class="message"></span>
+        </div>
+        
+        
+        <div class="field-row">
+            <label class="form-label"> Degree Program</label>
+            <select class="field form-dropdown">
+                <option value="UG"> Beginners In Magic - 1 Year </option>
+                <option value="PG"> Intermediate In Magic - 1 Year </option>
+                <option value="PHD"> Graduation In Magic - 1 Year </option>
+                <option value="ARTS"> Post Graduation In Magic - 1 Year </option>
+                <option value="MED"> Ph.D in Magic - 2 Years </option>
+
+            </select>
+        </div>
+
+        <div class="field-row">
+            <label class="form-label" for="tel">Password</label>
+            <input type="password" id="tel" class="field text-field address-field" required>
+            <span class="message"></span>
+        </div>
+        
+        <div class="field-row">
+            <label class="form-label" for="tel">Confirm Password</label>
+            <input type="password" id="tel" class="field text-field address-field" required>
+            <span class="message"></span>
+        </div>
+
+        <button type="submit" class="registerbtn">Register</button>
+        </div>
+
+        <div class="container signin">
+            <p>Already have an account? <a href="#">Sign in</a>.</p>
+        </div>
+    </form>
+
+
+
+
+</body>
+
+</html>
