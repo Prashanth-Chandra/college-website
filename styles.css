@@ -220,6 +220,7 @@ p {
     justify-content: space-between;
 }
 
+
 .row-courses {
     margin-top: 5%;
     display: flex;
@@ -227,9 +228,15 @@ p {
 }
 
 .row-testimonials {
-    margin-top: 0%;
+    margin-top: 2%;
     display: flex;
     justify-content: space-between;
+}
+
+@media(max-width: 700px) {
+    .row-testimonials {
+        flex-direction: column;
+    }
 }
 
 .courses-types {
@@ -368,10 +375,8 @@ h3 {
 }
 
 .testimonials-col {
-    flex-basis: 44%;
+    flex-basis: 49%;
     border-radius: 10px;
-    margin-top: 3%;
-    margin-left: 3%;
     text-align: left;
     background-color: #fff3f3;
     padding: 25px;
@@ -379,6 +384,24 @@ h3 {
     display: flex;
     transition: transform .2s;
 }
+
+
+@media(max-width: 700px) {
+    .testimonials-col {
+        flex-basis: 49%;
+        border-radius: 10px;
+        margin-top: 13%; 
+        margin-left: 13%; 
+        text-align: left;
+        background-color: #fff3f3;
+        padding: 25px;
+        /* margin:12%; */
+        cursor: pointer;
+        display: flex;
+        transition: transform .2s;
+    }
+}
+
 .testimonials-col:hover {
     transform: scale(1.05);
 }
